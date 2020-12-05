@@ -2,8 +2,8 @@ import './App.css';
 import {Header} from './components/Header'
 import {Balance} from './components/Balance'
 import {IncomeExpence} from './components/IncomeExpence'
-import {TransectionList} from './components/TransectionList'
-import {AddTransection} from './components/AddTransection'
+import {TransactionList} from './components/TransactionList'
+import {AddTransaction} from './components/AddTransaction'
 import {GlobalProvider} from './context/GlobalState'
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <div className="container">
         <Balance/>
         <IncomeExpence/>
-        <TransectionList/>
-        <AddTransection/>
+        <TransactionList/>
+        <AddTransaction/>
 
       </div>
           </GlobalProvider>
